@@ -119,6 +119,7 @@
 }
 
 .new_pw_btn_wrap a p {
+	cursor:pointer;
 	border-radius: 25px;
 	background-color: #ff6600;
 	line-height:2rem;

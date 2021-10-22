@@ -19,7 +19,7 @@
     <div id="wrap">
         <div class="top">
             <div class="logo">
-                <a href="/index.html">
+                <a href="/app">
                     <span><img src="${pageContext.request.contextPath}/resources/images/logo_span.png" alt=""></span>
                     <h1><img src="${pageContext.request.contextPath}/resources/images/logo.png" alt=""></h1>
                     <p><img src="${pageContext.request.contextPath}/resources/images/COWBOY.png" alt=""></p>
@@ -61,11 +61,18 @@ style="width: 70%;   height: 35px;  border-radius: 20px;    border:1px solid #d6
     style="width: 70%;   height: 35px;  border-radius: 20px;    border:1px solid #d6d6d6"/>
     </div>
 </fieldset>
+<div>
+<input type="text" id="fail_text" value="로그인에 실패하였습니다." style=display:none>
+</div>
 <div class="new_pw_btn_wrap">
 <a>
-<p>
-<input type="submit"  id="check_user_a" value=로그인>
+<p id="check_user_p">
+<input type="submit"  id="check_user_a" name="check_user_a" value=로그인
+style="background-color:transparent;  border:0px transparent solid;
+cursor:pointer;
+">
 </p>
+
 </a>
 </form>
     <a href="/admin/admin_home/admin.html"> 
@@ -128,14 +135,14 @@ style="width: 70%;   height: 35px;  border-radius: 20px;    border:1px solid #d6
     <input type=text value='${msg2 }' id="text22">
 </body>
 <script>
-if($('#text22').val()=="22"){
-	alert("로그인에 실패하였습니다.")
+if($('#text22').val()=="22"){	
+	$('#fail_text').css('display','block')
 }
 
 		
 $(document)
 .on('click',"#btn_test",function(){
-	
+	alert("테스트용버튼")
 	//)
 })
  .on('submit','#formLogin',function(){
@@ -150,9 +157,12 @@ $(document)
     	if($('#re_input_pw').val()==''){
     		alert("비밀번호를 입력하세요")
     		return false;
-    	}    	
-    	
-    	
+    	}    	  	
+})
+.on('click',"#check_user_p",function(){
+	$('#formLogin').trigger('submit');
+
+
 })
 
 </script>
