@@ -1,0 +1,322 @@
+@charset "utf-8"; 
+
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* 메인컨텐츠 */
+.guide{
+    padding: 0 0 10rem 0;
+}
+.line{
+    margin:1rem 0;
+    height: .1rem;
+    width: 100%;
+    background: #aaa;
+}
+.guide h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+}
+.guide_top{
+    width: 60rem;
+    margin: 0 auto;
+}
+.guide_top_txt{
+    width: 60rem;
+    height: 14rem;
+    border-radius: 1rem;
+    background-color: #FFEFD5;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1rem;
+    margin:3rem 0;
+    font-size: .9rem;
+}
+.guide_top_txt h3{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+}
+.guide_top_txt b{
+    color: tomato;
+}
+.guide_top img{
+    width: 100%;
+    height: auto;
+}
+.guide1, 
+.guide2, 
+.guide3,
+.guide4,
+.guide5,
+.guide6,
+.guide6_2,
+.guide7,
+.guide8,
+.guide8_2,
+.guide9,
+.guide10,
+.guide11{
+    width: 60rem;
+    margin:0 auto;
+    height: auto;
+}
+.guide1_txt,
+.guide2_txt,
+.guide3_txt,
+.guide4_txt,
+.guide5_txt,
+.guide6_txt,
+.guide7_txt,
+.guide8_txt,
+.guide9_txt,
+.guide10_txt,
+.guide11_txt{
+    width: 75%;
+    line-height: 1.5;
+    word-break: break-all;
+    font-size: .9rem;
+}
+
+
+
+
+.guide1{
+    background: url(/images/guide_url.jpg)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide1_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+
+
+.guide2_back{
+    background-color: #F5F5F5;
+}
+.guide2{
+    background: url(/images/guide2-2img.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide2_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+
+.guide3{
+    background: url(/images/guide2-3.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide3_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.guide3 table{
+    width: 100%;
+}
+.guide3 table th{
+    background-color: #B0C4DE;
+}
+
+
+
+.guide4_back{
+    background-color: #F5F5F5;
+}
+.guide4{
+    background: url(/images/break_img.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide4_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.guide4 table{
+    width: 100%;
+}
+.guide4 table th{
+    background-color: #B0C4DE;
+}
+
+
+
+
+.guide5{
+    background: url(/images/guide2-5.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+    height: 16rem;
+}
+.guide5_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.guide5_txt table{
+    width: 100%;
+}
+.guide5 table th{
+    background-color: #B0C4DE;
+}
+
+
+
+.guide6_back{
+    background-color: #F5F5F5;
+}
+.guide6{
+    background: url(/images/guide2-6.jpg)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide6_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.guide6 table{
+    width: 100%;
+}
+.guide6 table th{
+    background-color: #B0C4DE;
+}
+.guide6 table,th,td,tr{
+    border: 1px solid #999;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.guide7{
+    height: auto;
+    background: url(/images/guide_image.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide7_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+
+.guide8_back{
+    background-color: #F5F5F5;
+    padding:5rem 0;
+}
+.guide8{
+    background: url(/images/guide2-8.jpg)no-repeat  center right/15rem auto;
+    
+}
+.guide8_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+.guide8_txt table{
+    width: 100%;
+}
+.guide8_txt table th{
+    background-color:#B0C4DE;
+}
+
+
+
+
+
+.guide8_2{
+    background: url(/images/customer_clearance2.png)no-repeat center right/15rem auto;
+    padding:3rem 0;
+}
+.guide8_2 table th{
+    background-color:#B0C4DE;
+}
+.guide8_2 table{
+    width: 75%;
+    height: 30rem;
+}
+
+
+
+
+
+
+
+.guide9{
+    height: 16rem;
+    background: url(/images/customer_cowboy.png)no-repeat center right/15rem auto;
+    padding: 5rem 0;
+}
+
+.guide9_txt h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.guide9_txt table{
+    width: 100%;
+}
+.guide9_txt table th{
+    background-color: #B0C4DE;
+}
+
+
+
+
+.guide10_back{
+    background-color: #F5F5F5;
+    height: 16rem;
+    padding: 5rem 0;
+}
+.guide10{
+    background: url(/images/guide9.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide10_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.guide11{
+    background: url(/images/guide2-11.jpg)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide11_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+

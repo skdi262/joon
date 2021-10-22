@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- namespace="인터페이스의 경로명+이름" -->
+<mapper namespace="com.coffee.app.iLog">
+
+	<select id="getnewbieInfo" resultType="com.coffee.app.newbieInfo">
+	select name from test1
+	</select>
+	<insert id="doSignin">
+	insert into test1 values(#{param1},#{param2})
+	</insert>
+	<select id="doCheckUser" resultType="int">
+	select count(*) from test1 where name=#{param1} and passcode=#{param2}
+	</select>
+	<delete id="doDeleteId">
+	delete from test1 where name=#{param1}
+	</delete>
+</mapper>

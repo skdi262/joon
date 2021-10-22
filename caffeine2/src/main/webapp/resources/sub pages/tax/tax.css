@@ -1,0 +1,56 @@
+@charset "utf-8"; 
+
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* 메인컨텐츠 */
+
+.tax-info h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+}
+
+
+
+
+.post1-sumit{
+    background: #E7ECEE;
+    height: 23rem;
+}
+.post1-sumit p{
+    padding: 2rem 0;
+    text-align: center;
+    color: tomato;
+}
+.post1-sumit ul{
+    display: flex;
+    justify-content: center;
+}
+.post1-sumit ul li{
+    padding: .5rem 1rem;
+    margin:0 .3rem;
+    border-radius: 5px;
+}
+.post1-sumit ul li a{
+    color: #fff;
+}
+.post1-sumit ul li:nth-child(1){
+    background-color: #F2594B;
+}
+.post1-sumit ul li:nth-child(3){
+    background-color: #5679A6;
+}
+.post1-sumit ul li:nth-child(2){
+    background-color: #163A59;
+}

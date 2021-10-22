@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+html{
+    font-size: 20px;
+}
+body{
+    font-size: 1rem;
+    background-color: #fafafa;
+}
+#wrap{
+    width: 100%;
+}
+
+
+/*  */
+.top{
+    height:6rem;
+    background-color:#37474f;
+}
+.top_menu{
+    width: 66rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 10rem;
+}
+.logo a{
+    display: flex;
+}
+.logo a img{
+    width: 70%;
+}
+
+
+
+
+
+
+/*  */
+.m_quick ul{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+.log{
+    display: flex;
+    justify-content:flex-end;
+    padding: .7rem 0 0 .5rem;
+}
+.log h1{
+    font-size: .8rem;
+    color: #fff;
+    line-height: 1.2rem;
+}
+.log button{
+    margin: 0 0 0 1rem;
+    background-color: #D9BBA0  ;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1.2rem;
+}
+.m_quick ul li a{
+    width: 6rem;
+    height: 2.7rem;
+    display: flex;
+    display:inline-block;
+    margin: .5rem 0 0 .5rem;
+    text-align: center;
+    border-radius: .3rem;
+    background-color: #F25D07     ;
+    color: #fff;
+    font-size: .7rem;
+    line-height: 1rem;
+}
+.m_quick ul li a:hover{
+    background: #fff;
+    color: #555;
+    transition: all .3s;
+}
+.m_quick ul li a p{
+    padding:.4rem 0 0 0 ;
+}
+
+
+
+/*  */
+.contents{
+    width: 70rem;
+    height: auto;
+    margin: auto;
+}
+
+
+
+
+/* accordian */
+.aside{
+    width: 10rem;
+    float: left;
+    background-color: gray;
+}
+.accordian{
+    padding-bottom: auto;
+}
+input[id*="answer"]{
+    display: none;
+}
+input[id*="answer"]+label{
+    display: block;
+    border-bottom: 0;
+    background: #efebe9 ;
+    cursor: pointer;
+    width: 10rem;
+    height: 2.3rem;
+    position: relative;
+    line-height: 2.3rem;
+    border-bottom: 1px solid gray;
+    font-size: .7rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+input[id*="answer"]+label em{
+    position: absolute;
+    top:50%;
+    right: 1rem;
+    width: .9rem;
+    height: .9rem;
+    transform: translateY(-50%);
+    display: inline-block;
+    background: url(/images/accordian.png)no-repeat center right;
+}
+input[id*="answer"]+label+div{
+    max-height: 0;
+    transition: all .4s;
+    overflow: hidden;
+    background-color: gray;
+}
+input[id*="answer"]+label+div>ul>li>a{
+    color: #fff;
+    font-size: .7rem;
+}
+input[id*="answer"]+label+div>ul>li>a:hover{
+    color: #ffb300;
+}
+input[id*="answer"]+label+div>ul>li{
+    padding: .3rem .3rem;
+}
+input[id*="answer"]:checked+label+div{
+    max-height: 350px;
+    
+}

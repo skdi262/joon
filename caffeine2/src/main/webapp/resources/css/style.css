@@ -1,0 +1,600 @@
+@charset "utf-8";
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+  color: #000;
+}
+/* font */
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url(./fonts/NanumGothic-Bold.ttf);
+}
+@font-face {
+  font-family: 'GongGothicMedium';
+  src: url(./fonts/esamanru\ Medium.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+p, h2, h3{
+  font-family: 'NanumSquareRound';
+}
+
+
+
+/* clearfix */
+.clearfix::after {
+	content:"";
+	display:block;
+	clear:both;
+  }
+  body{
+    height: 100%;
+  }
+  html{
+    font-size: 16px;
+  }
+  /*******************/
+  #wrap{
+    width: 100%;
+    
+  }
+  #container{
+      margin:0 auto;  
+        
+  }
+  #icon{
+    color:darkorange;
+  }
+  
+
+
+
+  /* top */
+  .top{  
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  .top_main_img{
+    width: 100%;
+  }
+  #top_main_img_web{
+    width: 100%;
+  }
+  #top_main_img_mobile{
+    display: none;
+  }
+  .nav_back{
+    width: 100%;
+    height: 50%;
+    background-color:#eee;
+  }
+  .nav{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    padding:1% 0;
+  }
+  .logo{
+    width:40%;
+  }
+  .nav_items{
+    width: 50%;
+  }
+  .nav_items ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .nav_items ul li{
+    line-height: 350%;
+  }
+  .nav ul li a:hover{
+    transition: all 0.1s;
+    color:#2196f3;
+    border-bottom: 4px solid #2196f3;
+  }
+  .nav ul li a{
+    font-family: 'NanumSquareRound';
+    color: #555;
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .responsive{
+    display: none;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  @keyframes slidein_em {
+    from {
+      margin-left: -100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+
+  .center-text{
+    width: 100%;
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translateX(-50%);
+    color: #fff;  
+    font-family: 'Nanum Gothic';
+    z-index: 20;
+    text-align: center;
+  }
+  .center-text p{
+    font-size: 4.5em;
+    font-weight: 800;
+    font-family: 'Nanum Gothic';
+    animation-duration: 1s;
+    animation-name: slidein;
+  }
+  .center-text em{
+    font-size: 2em;
+    animation-duration: 1s;
+    animation-name: slidein_em;
+  }
+
+
+
+
+  /*middle*/
+  
+ 
+  .middle{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    background-color: #eee;
+    padding-top: 22%;
+  }
+  .middle_section_hidden{
+    width: 100%;
+    height: 8px;
+  }
+  .middle em{
+    position: relative;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 700;
+    font-family: 'NanumSquareRound';
+  }
+  .middle h2{
+    font-family: 'GongGothicMedium';
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #535461;
+    color: #fff;
+    padding: 2.5% 0 1.5% 0;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+  }
+  
+  .middle ul{
+    display: flex;
+    justify-content:center;
+  }
+  .middle ul li{
+    margin:0 2%;
+  }
+  .middle ul li a img{
+    width: 100%;
+	  border-radius: 10%;
+	  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.36);
+  }
+  .middle ul li a img:hover{
+	  transform: scale(1.08);
+	  transition:all 0.4s;
+    filter: brightness(110%);
+  }
+  .middle_section1{
+    background-color: #fff;
+  }
+  .middle_section3{
+    background-color: #fff;
+  }
+
+
+  /* four_items */
+  #four_items{
+    width: 70%;
+    height:700px;
+    margin: auto;
+    z-index: 10;
+  }
+  
+  #four_items p{
+    padding:5% 0;
+    line-height: 150%;
+  }
+  
+
+  /* button */
+  .four_items_tit{
+    padding: 5% 0;
+    display: flex;
+    justify-content:flex-start ;
+  }
+  .four_items_tit h3{
+    font-size: 2em;
+    line-height: 3rem;
+  }
+  .four_items_tit .button{
+    margin-left: 2rem;
+    border:1px solid none;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    background: linear-gradient(90deg,#40c4ff 0,#a2d9b6 100%);
+    line-height: 3rem;
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.3);
+    color: #fff;
+    font-weight: 600;
+  }
+  .four_items_tit .button:hover{
+    color: #3949ab;
+    transition: all 0.4s;
+  }
+  
+  
+
+
+
+
+
+  /* bottom */
+  .bottom{
+    position: absolute;
+    width: 100%;
+    height:170px;
+    background-color: #555;
+    font-family: 'Nanum Gothic';
+  }
+  .bottom address{
+    font-size: 0.7em;
+    text-align: center;
+    color:#fff;
+    padding-top:3%;
+    line-height: 150%;
+  }
+
+
+  
+
+
+
+  @media all and (max-width:1600px){
+    html{
+      font-size: 16px;
+    }
+    .nav ul li a{
+      font-size: 1em;
+    }
+    #top_main_img_mobile{
+      display: none;
+    }
+    .center-text p{
+      font-size: 4.5em;
+    }
+    .middle{
+      margin: auto;
+    }
+    .middle ul li {
+      margin: 0px 1.5%;
+    }
+    #four_items{
+      width: 80%;
+      height:650px;
+    }
+  }
+  @media all and (max-width:1400px){
+    html{
+      font-size: 16px;
+    }
+    .middle h2{
+      margin:1% 0 2% 0;
+      padding: 2.5% 0;
+    }
+    #four_items{
+      width: 80%;
+      height: 600px;
+    }
+    .middle ul li {
+      margin: 0px 1%;
+    }
+    .center-text{
+      top:55%;
+    }
+  }
+
+
+
+
+  
+  @media all and (max-width:1024px){
+    html{
+      font-size: 15px;
+    }
+    .nav_back{
+      height: auto;
+    }
+    .nav_items ul li a{
+      line-height: 500%;
+      font-size: .9rem;
+    }
+    .logo img{
+      max-width: 100%;
+      height: auto;
+    }
+    .center-text{
+      top:50%;
+    }
+    .center-text p{
+      font-size: 3rem;
+    }
+    .center-text em{
+      font-size: 1.5rem;
+    }
+    .middle h2{
+      padding: 5% 0 3% 0;
+      font-size: 25px;
+    }
+    #four_items{
+      width: 90%;
+      height:500px;
+    }
+    #four_items ul li a p{
+      word-break: keep-all;
+    }
+    .bottom{
+      max-width: 100%;
+      height: 15%;
+    }
+  }
+
+
+
+
+
+  @media all and (max-width:768px){
+    html{
+      font-size: 11px;
+    }
+    .nav_items{
+      display: none;
+    }
+
+
+    /*  */
+    .responsive{
+      display: block;
+      width: 40%;
+    }
+    .menuwrap{
+      position:fixed;
+      top:0;
+      right: -800px;
+      z-index: 100;
+      width: 100%;
+      height: 100%;
+      padding: 50px 20px;
+      box-sizing: border-box;
+      transition: right 0.3s ease-in-out;
+      background-color: #212020 ;
+      overflow: scroll;
+    }
+    #menubtn{
+      z-index: 101;
+      transition: all 0.3s ease-in-out;
+      cursor:pointer;
+    }
+    .menulist{
+      font-family: 'NanumSquareRound';
+      font-size: 1.5em;
+    }
+    .menulist li{
+      padding: 8% 0;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+    .menulist li:hover{
+      background-color: #3a8afd;
+      border-radius: 5px;
+    }
+    .menulist a{
+      color: #dbdbdb;
+    }
+    .menuwrap.on {
+      right: 0;
+    }
+    .crossbtn{
+      position: absolute;
+      top: 0;
+      right: 0;
+      cursor:pointer;
+    }
+    .btnrotate{
+      transform: rotate(-180deg);
+      transition: all 0.3s ease-in-out;
+    }
+    .navbox{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+    }
+    /*  */
+
+
+    .logo img{
+      padding-top: 3%;
+    }
+
+
+
+
+
+    #four_items{
+      width: 90%;
+      height: 450px;
+    }
+    .middle h2{
+      font-size: 22px;
+      margin:4% 0 2% 0;
+    }
+  }
+
+
+
+
+
+  @media all and (max-width:650px){
+    body{
+      font-size: 10px;
+    }
+    #top_main_img_web{
+      display: none;
+    }
+    #top_main_img_mobile{
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .middle{
+      padding-top: 35.5%;
+    }
+    .middle h2{
+      font-size: 20px;
+      padding: 4% 0;
+    }
+    .four_items_tit{
+      width: 85%;
+      margin: auto;
+    }
+    .four_items_tit h3{
+      font-size: 2rem;
+    }
+    #four_items ul li a p{
+      display: none;
+    }
+    #four_items{
+      width: 95%;
+      height: 100%;
+    }
+    #four_items ul li:nth-child(3){
+      display: none;
+    }
+    #four_items ul li:nth-child(4){
+      display: none;
+    }
+    #four_items ul li a em{
+      display: block;
+      text-align: center;
+      padding: 10% 0;
+      font-size: 18px;
+    }
+    #four_items ul li{
+      text-align: center;
+    }
+    #four_items ul li a img{
+      width: 90%;
+    }
+    .four_items_tit .button{
+      font-size: 1.3em;
+      background-color: tomato;
+      border:none;
+      color: #fff;
+      margin-left: 1rem;
+    }
+    .bottom{
+      height: 100px;
+    }
+  }
+
+
+
+  @media all and (max-width:425px){
+    .logo img{
+      width: 100%;
+    }
+    .middle{
+      padding-top: 35%;
+    }
+    .bottom address{
+      font-size: 7px;
+    }
+  }

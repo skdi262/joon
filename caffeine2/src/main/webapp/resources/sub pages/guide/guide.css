@@ -1,0 +1,230 @@
+@charset "utf-8"; 
+
+#wrap{
+    position: relative;
+}
+
+/* 메인컨텐츠 */
+.guide{
+    padding: 0 0 10rem 0;
+}
+.guide h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+    margin:0 0 2rem 0;
+}
+.guide_top{
+    width: 60rem;
+    margin: auto;
+}
+.guide_top_txt{
+    width: 60rem;
+    height: 9rem;
+    border-radius: 1rem;
+    background-color: #FFEFD5;
+    line-height: 1.5;
+    text-align: center;
+    font-size: .9rem;
+}
+.guide_top_txt h3{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1.5rem 0;
+}
+.line{
+    margin:1rem 0;
+    height: .1rem;
+    width: 100%;
+    background: #aaa;
+}
+.guide1, 
+.guide2, 
+.guide3,
+.guide4,
+.guide5,
+.guide6,
+.guide6_2,
+.guide7,
+.guide8,
+.guide9,
+.guide10{
+    width: 60rem;
+    margin:0 auto;
+    height: auto;
+}
+.guide1_txt,
+.guide2_txt,
+.guide3_txt,
+.guide4_txt,
+.guide5_txt,
+.guide6_txt,
+.guide7_txt,
+.guide8_txt,
+.guide9_txt,
+.guide10_txt{
+    width: 70%;
+    line-height: 1.5;
+    word-break: break-all;
+    font-size: .9rem;
+}
+.guide1_txt h3,
+.guide2_txt h3,
+.guide3_txt h3,
+.guide4_txt h3,
+.guide5_txt h3,
+.guide6_txt h3,
+.guide7_txt h3,
+.guide8_txt h3,
+.guide9_txt h3,
+.guide10_txt h3{
+    font-size: 1.3rem;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+
+.guide1{
+    background: url(/images/input.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+
+
+
+
+
+.guide2_back{
+    background-color: #F5F5F5;
+}
+.guide2{
+    background: url(/images/break_img.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+
+
+
+
+.guide3{
+    background: url(/images/guide_photo.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+
+
+
+
+.guide4_back{
+    background-color: #F5F5F5;
+}
+.guide4{
+    background: url(/images/deadline.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide4 table{
+    width: 100%;
+}
+.guide4 table th{
+    background-color: #B0C4DE;
+}
+
+
+
+
+.guide5{
+    background: url(/images/guide_caution.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+
+
+
+
+.guide6_back{
+    background-color: #F5F5F5;
+}
+.guide6{
+    background: url(/images/guide2-8.jpg)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide6 table{
+    width: 100%;
+}
+.guide6 table th{
+    background-color: #B0C4DE;
+}
+.guide6 table,th,td,tr{
+    border: 1px solid #999;
+    text-align: center;
+}
+
+
+
+
+
+
+.guide6_2{
+    background: url(/images/customer_clearance2.png)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}
+.guide6_2 table th{
+    background-color:#B0C4DE;
+}
+.guide6_2 table{
+    width: 42rem;
+    height: 20rem;
+    font-size: .9rem;
+}
+
+
+
+.guide7_back{
+    
+    padding:5rem 0;
+}
+.guide7{
+    height: auto;
+    background: url(/images/guide_image.png)no-repeat center right/15rem auto;
+}
+
+
+
+
+.guide8_back{
+    background-color: #F5F5F5;
+}
+.guide8{
+    background: url(/images/customer_cowboy.png)no-repeat  center right/15rem auto;
+    padding:5rem 0;
+    height: 17rem;
+}
+
+
+
+
+.guide9_back{
+    padding:5rem 0;
+}
+.guide9{
+    height: 17rem;
+    background: url(/images/guide9.png)no-repeat center right/15rem auto;
+}
+.guide9_txt table{
+    width: 100%;
+}
+.guide9_txt table th{
+    background-color: #B0C4DE;
+}
+
+
+
+
+.guide10_back{
+    background-color: #F5F5F5;
+}
+.guide10{
+    background: url(/images/guide2-11.jpg)no-repeat center right/15rem auto;
+    padding:5rem 0;
+}

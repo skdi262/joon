@@ -1,0 +1,149 @@
+@charset "utf-8"; 
+
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* 메인컨텐츠 */
+
+.post1 h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+}
+.post1-guide{
+    width: 50rem;
+    margin: auto;
+    padding:2rem 0 0 0;
+    font-size: .8rem;
+}
+.post1-guide h3{
+    background: #8AA5BA;
+    padding: .5rem 0;
+    color: #fff;
+    text-align: center;
+}
+.post1-guide div{
+    width: 100%;
+    height: 17rem;
+    line-height: 1.8;
+    overflow-x: hidden;
+    border: 1px solid #aaa;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.post1-guide div b{
+    font-weight: bold;
+}
+.post1-guide form{
+    padding: .5rem;
+    background: #F7ECDC;
+}
+
+
+
+
+
+.post1-member,
+.post1-info,
+.post1-area,
+.post1-sumit-list{
+    width: 50rem;
+    margin: auto;
+    padding: 1rem 0;
+}
+.post1-member table,
+.post1-info table,
+.post1-area table{
+    width: 100%;
+}
+.post1-member table,th,td{
+    border: 1px solid #aaa;
+    padding: .3rem;
+    font-size: .8rem;
+}
+.post1-info table,th,td,
+.post1-area table, th,td{
+    border: 1px solid #c8c8c8;
+    padding: .3rem;
+    font-size: .8rem;
+}
+.post1-member table th{
+    background: #737E87;
+}
+.post1-info table th{
+    background: #8AA5BA;
+}
+.post1-member table th,
+.post1-info table th,
+.post1-area table th{
+    color: #fff;
+    font-weight: normal;
+    padding: .4rem;
+}
+.post1-member table td span,
+.post1-info table td span{
+    display: inline-block;
+    width: 3.5rem;
+    padding: .2rem 0;
+    color: #113662;
+}
+.post1-member table td a,
+.post1-info table td a,
+.post1-area table td a{
+    background: #73716E;
+    padding: .1rem;
+    color: #fff;
+    margin: 0 0 0 .2rem;
+    font-size: .7rem;
+    border-radius: 2px;
+}
+.post1-area table th{
+    background: #73716E;
+    padding: .3rem 0;
+}
+
+
+
+
+
+
+.post1-sumit{
+    background: #E7ECEE;
+    height: 23rem;
+}
+.post1-sumit p{
+    padding: 2rem 0;
+    text-align: center;
+    color: tomato;
+}
+.post1-sumit ul{
+    display: flex;
+    justify-content: center;
+}
+.post1-sumit ul li{
+    padding: .5rem 1rem;
+    margin:0 .3rem;
+    border-radius: 5px;
+}
+.post1-sumit ul li a{
+    color: #fff;
+}
+.post1-sumit ul li:nth-child(1){
+    background-color: #F2594B;
+}
+.post1-sumit ul li:nth-child(3){
+    background-color: #5679A6;
+}
+.post1-sumit ul li:nth-child(2){
+    background-color: #163A59;
+}

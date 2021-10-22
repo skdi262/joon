@@ -1,0 +1,99 @@
+@charset "utf-8"; 
+
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* 메인컨텐츠 */
+.post2{
+    height:32rem;
+}
+.post2 h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+}
+
+
+
+
+
+
+.post2-order{
+    width: 50rem;
+    height: 9rem;
+    margin: auto;
+}
+.post2-order table{
+    width: 100%;
+    margin:4rem 0 0 0;
+}
+.post2-order table,th,td{
+    border: 1px solid #aaa;
+    padding: .3rem;
+    font-size: .8rem;
+}
+
+.post2-order table th{
+    background: #DDD7D7;
+    color: #555;
+    font-weight: normal;
+    padding: .4rem;
+}
+.post2-order table td a{
+    background: #F27D72;
+    padding: .2rem;
+    color: #fff;
+    font-size: .7rem;
+    border-radius: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.buy2-sumit{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 7rem;
+}
+.buy2-sumit p{
+    padding: 2rem 0;
+    text-align: center;
+    color: tomato;
+}
+.buy2-sumit ul{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.buy2-sumit ul li{
+    padding: .5rem 1rem;
+    margin:0 .3rem;
+    border-radius: 5px;
+}
+.buy2-sumit ul li a{
+    color: #fff;
+}
+.buy2-sumit ul li:nth-child(1){
+    background-color: #F2594B;
+}
+.buy2-sumit ul li:nth-child(3){
+    background-color: #5679A6;
+}
+.buy2-sumit ul li:nth-child(2){
+    background-color: #163A59;
+}

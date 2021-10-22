@@ -1,0 +1,157 @@
+@charset "utf-8"; 
+
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* 메인컨텐츠 */
+
+.buy1 h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+}
+.buy1-guide{
+    width: 50rem;
+    margin: auto;
+    padding:2rem 0 0 0;
+    font-size: .8rem;
+}
+.buy1-guide h3{
+    background: #40221B;
+    padding: .5rem 0;
+    color: #fff;
+    text-align: center;
+}
+.buy1-guide div{
+    width: 100%;
+    height: 17rem;
+    line-height: 1.8;
+    overflow-x: hidden;
+    border: 1px solid #aaa;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.buy1-guide div b{
+    font-weight: bold;
+}
+.buy1-guide form{
+    padding: .5rem;
+    background: #D9D9D9;
+}
+.buy-guide-txt{
+    list-style:inside
+}
+
+
+
+
+.buy1-member,
+.buy1-info,
+.buy1-area{
+    width: 50rem;
+    margin: auto;
+    padding: 1rem 0;
+}
+.buy1-member table,
+.buy1-info table,
+.buy1-area table{
+    width: 100%;
+}
+.post1-member table,th,td,
+.buy1-info table,th,td{
+    border: 1px solid #aaa;
+    padding: .3rem;
+    font-size: .8rem;
+}
+.buy1-area table,th,td{
+    border: 1px solid #c0c0c0;
+}
+.buy1-member table th{
+    background: #737E87;
+}
+.buy1-info table th{
+    background: #A65E4E;
+}
+.buy1-area table th{
+    background: #809BA6;
+}
+.buy1-member table th,
+.buy1-info table th,
+.buy1-area table th{
+    color: #fff;
+    font-weight: normal;
+    padding: .4rem;
+}
+.buy1-member table td span,
+.buy1-info table td span,
+.buy1-area table td span{
+    display: inline-block;
+    width: 3.5rem;
+    padding: .2rem 0;
+    color: #113662;
+}
+.buy1-member table td a,
+.buy1-info table td a,
+.buy1-area table td a{
+    background: #73716E;
+    padding: .1rem;
+    color: #fff;
+    margin: 0 0 0 .2rem;
+    font-size: .7rem;
+    border-radius: 2px;
+}
+.buy1-member table input,
+.buy1-info table input,
+.buy1-area table input{
+    margin: .1rem 0;
+    padding: .2rem 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.buy1-sumit{
+    background: #E7ECEE;
+    height: 20rem;
+}
+.buy1-sumit p{
+    padding: 2rem 0;
+    text-align: center;
+    color: tomato;
+}
+.buy1-sumit ul{
+    display: flex;
+    justify-content: center;
+}
+.buy1-sumit ul li{
+    padding: .5rem 1rem;
+    margin:0 .3rem;
+    border-radius: 5px;
+}
+.buy1-sumit ul li a{
+    color: #fff;
+}
+.buy1-sumit ul li:nth-child(1){
+    background-color: #F2594B;
+}
+.buy1-sumit ul li:nth-child(3){
+    background-color: #5679A6;
+}
+.buy1-sumit ul li:nth-child(2){
+    background-color: #163A59;
+}

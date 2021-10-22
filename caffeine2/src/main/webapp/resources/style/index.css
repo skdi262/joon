@@ -1,0 +1,299 @@
+@charset "utf-8"; 
+
+
+
+
+
+.main{
+    position: relative;
+}
+
+
+
+
+/* 슬라이드 배너 좌우로 넘기기*/
+.visual{
+    position: relative;
+}
+.visual button{
+    position: absolute;
+    z-index: 10;
+    top:50%;
+    transform: translateY(-50%);
+    width: 3.55rem;
+    height: 3.55rem;
+    border-radius: 100%;
+    background: rgba(0,0,0,.4);
+    border:none;
+}
+.visual button::before{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.visual button.slick-next{
+    right: 2rem;
+    font-size: 0;
+    color: transparent;
+}
+.visual button.slick-prev{
+    left:2rem;
+    font-size: 0;
+    color: transparent;
+}
+.visual button.slick-next:before{
+    content:"\e940";
+    font-family: 'xeicon';
+}
+.visual button.slick-prev:before{
+    content:"\e93d";
+    font-family: 'xeicon';
+}
+
+
+
+
+
+/* 하단에 퀵 버튼을 클릭할때 */
+.quick_btn{
+    width: 60rem;
+    margin: auto;
+    padding: 2rem 0 0 0;
+}
+.quick_btn ul{
+    padding: 0 0 2rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.quick_btn ul li{
+    width: 13rem;
+    height: 8rem;
+    position: relative;
+    border-radius: .3rem;
+    font-weight: bold;
+    -webkit-box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.08); 
+    box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.08);
+}
+.quick_btn ul li img{
+    position: absolute;
+    top:.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.quick_btn ul li figure figcaption{
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #555;
+}
+.quick_btn{
+    position: relative;
+}
+.quick_btn:after{
+    position: absolute;
+    content: "";
+    height: .2rem;
+    width: 60rem;
+    background: #73A7CE;
+    opacity: .3;
+}
+
+
+/* 메뉴 버튼 */
+.menu_btn{
+    width: 60rem;
+    padding: .5rem 0 0 0;
+    margin: 0 auto;
+}
+.menu_btn ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_btn ul li{
+    position: relative;
+    flex: 1;
+    margin:.525rem;
+    height: 4rem;
+    border-radius: .3rem;
+    -webkit-box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.08); 
+    box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.08);
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+.menu_btn ul li a{
+    margin:.5rem 0 0 2rem;
+}
+.menu_btn ul li a p{
+    position: absolute;
+    left:6rem;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: .9rem;
+}
+/*  마우스 오버시 밑줄을 표시*/
+
+.menu_btn ul li:hover{
+    background-color:#b1cde2;
+    transition: all 0.3s;
+}
+
+
+
+
+
+/*  사이트맵  */
+
+.site_cyn{
+    height: 13.05rem;
+    background: #f1efeb;
+    margin: 2rem 0 0 0;
+}
+.site_cyn_box{
+    width: 67rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.site{
+    width: 33rem;
+    height: 6rem;
+}
+.site_cyn_box h2{
+    display: inline-block;
+    background: #fff;
+    width: 100%;
+    height: 2.638rem;
+    text-align: center;
+    line-height: 2.683rem;
+    margin: 1rem .05rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.site ul{
+    height: 7.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.site ul li{
+    display: flex;
+    align-items:center;
+}
+
+
+
+
+/*  환율조회 적용환율 안내 */
+.cyn{
+    width: 33rem;
+    height: auto;
+}
+.cyn_box{
+    height: 6rem;
+    text-align: center;
+    background: #fff;
+    padding: 1.35rem 0 0 0;
+}
+.cyn_krw{
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* 공지사항 & 자주묻는 질문 */
+.customer{
+    width: 68rem;
+    height: 19rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*  공지사항  */
+.notice{
+    width: 33rem;
+}
+.notice figure{
+    width: 100%;
+    height: 13.6935rem;
+    margin: 2rem 0;
+    border:1px  solid #c3c3c3;
+}
+.notice figure ul{
+    padding: 1rem 2rem;
+}
+.notice figure ul li a{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.7rem;
+    font-size: .8rem;
+}
+.notice figure figcaption{
+    background: #6593A6;
+    text-align: center;
+    height: 3rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: #fff;
+}
+
+/* 콘텐츠 */
+
+.contact{
+    width: 100%;
+    background: #D9D9D9;
+    height: 24rem;
+}
+.contact_list{
+    width: 50rem;
+    margin: auto;
+}
+.contact_list h2{
+    text-align: center;
+    font-size: 1.4rem;
+    padding:2rem 0 0 0;
+}
+.contact_list ul{
+    padding: 1.5rem 0 0 0;
+    height: 14rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.contact_list ul li{
+    padding:0 1rem;
+}
+
+/*  푸터 아이콘  */
+.contact_list ul li a img{
+    position: relative;
+    top:0;
+    left:50%;
+    transform: translateX(-50%);
+    
+}
+.contact_list ul li p{
+    padding:.5rem 0 0 0;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1.5;
+}
+
+
+
+
+

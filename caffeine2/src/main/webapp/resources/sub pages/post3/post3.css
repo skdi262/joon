@@ -1,0 +1,151 @@
+@charset "utf-8"; 
+
+#wrap{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* 메인컨텐츠 */
+
+.post1 h2{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    background: gray;
+    padding:1rem;
+    color: #fff;
+}
+.post3-guide{
+    width: 50rem;
+    margin: auto;
+    padding:2rem 0 0 0;
+    font-size: .8rem;
+}
+.post3-guide h3{
+    background: #FFA489;
+    padding: .5rem 0;
+    color: #fff;
+    text-align: center;
+}
+.post3-guide div{
+    width: 100%;
+    height: 17rem;
+    line-height: 1.8;
+    overflow-x: hidden;
+    border: 1px solid #aaa;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.post3-guide div b{
+    font-weight: bold;
+}
+.post3-guide form{
+    padding: .5rem;
+    background: #F3F2F2;
+}
+
+
+
+
+
+.post3-member,
+.post3-info,
+.post3-reciver{
+    width: 50rem;
+    margin: auto;
+    padding: 1rem 0;
+}
+.post3-member table,
+.post3-info table,
+.post3-reciver table{
+    width: 100%;
+}
+.post3-member table,th,td,
+.post3-info table,th,td,
+.post3-reciver table,th,td{
+    border: 1px solid #aaa;
+    padding: .3rem;
+    font-size: .8rem;
+}
+
+.post3-member table th{
+    background: #9ED8B3;
+    color: #444;
+}
+.post3-info table th{
+    background: #7B868C;
+    color: #fff;
+}
+.post3-reciver table th{
+    background: #97D1DC;
+    color: #444;
+}
+.post3-member table th,
+.post3-info table th,
+.post3-reciver table th{
+    font-weight: normal;
+    padding: .4rem;
+}
+.post3-member table input,
+.post3-info table input,
+.post3-reciver table input{
+    margin: .1rem 0;
+    padding: .2rem 0;
+}
+.post3-member table td span{
+    display: inline-block;
+    width: 3.5rem;
+    padding: .2rem 0;
+    color: #113662;
+}
+.post3-member table td a,
+.post3-info table td a,
+.post3-reciver table td a{
+    background: #73716E;
+    padding: .2rem;
+    color: #fff;
+    margin: 0 0 0 .2rem;
+    font-size: .7rem;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+.post3-sumit{
+    background: #E7ECEE;
+    height: 20rem;
+}
+.post3-sumit p{
+    padding: 2rem 0;
+    text-align: center;
+    color: tomato;
+}
+.post3-sumit ul{
+    display: flex;
+    justify-content: center;
+}
+.post3-sumit ul li{
+    padding: .5rem 1rem;
+    margin:0 .3rem;
+    border-radius: 5px;
+}
+.post3-sumit ul li a{
+    color: #fff;
+}
+.post3-sumit ul li:nth-child(1){
+    background-color: #F2594B;
+}
+.post3-sumit ul li:nth-child(3){
+    background-color: #5679A6;
+}
+.post3-sumit ul li:nth-child(2){
+    background-color: #163A59;
+}
